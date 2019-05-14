@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"strings"
 )
-
+// ViewPrefix 视图前缀
 const ViewPrefix string = "viewPrefix"
 
 func IsMobileDevice(requestHeader string) bool {
